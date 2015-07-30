@@ -4,10 +4,8 @@ namespace stsivin\SocialLikes;
 
 use yii\base\Widget;
 
-
 class SocialWidget extends Widget
 {
-
     /**
      * @var string $url to share
      */
