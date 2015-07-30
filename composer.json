@@ -2,6 +2,7 @@
   "name": "stsivin/yii2-social-likes",
   "description": "Yii2 wrapper for Single style social like buttons with counters for jQuery, see http://sapegin.github.io/social-likes/",
   "homepage": "https://github.com/sergeytsivin/yii2-social-likes",
+  "license": "MIT",
   "authors": [
     {
       "name": "Sergey Tsivin",
