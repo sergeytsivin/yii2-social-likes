@@ -1,0 +1,25 @@
+{
+  "name": "stsivin/yii2-social-likes",
+  "description": "Yii2 wrapper for Single style social like buttons with counters for jQuery, see http://sapegin.github.io/social-likes/",
+  "authors": [
+    {
+      "name": "Sergey Tsivin",
+      "email": "sergey.tsivin@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.x-dev",
+    "bower-asset/social-likes": "^3.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "stsivin\\SocialLikes\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
