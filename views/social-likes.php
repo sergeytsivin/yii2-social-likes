@@ -1,8 +1,8 @@
 <?php
 
-use stsivin\SocialLikes\AssetBundle;
+use stsivin\SocialLikes\SocialAsset;
 
-AssetBundle::register($this);
+SocialAsset::register($this);
 ?>
 <div class="social-likes">
     <div class="facebook" title="Поделиться ссылкой на Фейсбуке"  data-url="<?php echo $url; ?>" data-title="<?php echo $title; ?>">Facebook</div>

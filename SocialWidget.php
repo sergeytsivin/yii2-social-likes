@@ -2,7 +2,10 @@
 
 namespace stsivin\SocialLikes;
 
-class Widget extends \yii\base\Widget
+use yii\base\Widget;
+
+
+class SocialWidget extends Widget
 {
 
     /**

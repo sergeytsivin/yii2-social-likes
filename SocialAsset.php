@@ -6,7 +6,7 @@ namespace stsivin\SocialLikes;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class AssetBundle extends \yii\web\AssetBundle
+class SocialAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@bower/social-likes';
     public $baseUrl = '@web';
@@ -17,5 +17,6 @@ class AssetBundle extends \yii\web\AssetBundle
         'social-likes.min.js'
     ];
     public $depends = [
+        'yii\web\JqueryAsset',
     ];
 }
